@@ -7,7 +7,9 @@ Laravelで作成したブログ風アプリです。記事の作成・編集・�
 - PHP 8.4
 - MySQL 9.3.0
 
+
 ## 主なファイル構成
+```
 app/Http/Controllers/
 ├── ArticleController.php   # 記事のCRUD処理
 
@@ -19,11 +21,4 @@ resources/views/
 
 routes/
 └── web.php                 # ルーティング定義
-
-## 主なルート
-- GET /        → 記事一覧
-- GET /create  → 記事作成画面
-- POST /       → 記事保存
-- GET /articles/{id} → 記事詳細
-- PUT /articles/{id} → 記事更新
-- DELETE /articles/{id} → 記事削除
+```

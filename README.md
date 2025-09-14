@@ -3,9 +3,9 @@
 Laravelで作成したブログ風アプリです。記事の作成・編集・削除ができます。
 
 ## 技術スタック
-- Laravel 12.x
+- Laravel Framework 12.28.1
 - PHP 8.4
-- MySQL 8.x
+- MySQL 9.3.0
 
 ## 主なファイル構成
 app/Http/Controllers/
